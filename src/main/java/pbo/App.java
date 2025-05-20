@@ -6,6 +6,9 @@ import pbo.model.Mahasiswa;
 import pbo.model.Course;
 import pbo.model.Enrollment;
 
+//12S23008-Ranty Insen Pakpahan
+//12S23048-Grace Caldera Situmorang
+
 public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

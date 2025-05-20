@@ -2,6 +2,9 @@ package pbo.model;
 
 import javax.persistence.*;
 
+//12S23008-Ranty Insen Pakpahan
+//12S23048-Grace Caldera Situmorang
+
 @Entity
 @Table(name = "Mahasiswa")
 public class Mahasiswa {
