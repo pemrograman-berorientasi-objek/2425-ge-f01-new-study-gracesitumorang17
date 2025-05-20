@@ -107,12 +107,12 @@ public class App {
                     Course courseEnroll = entityManager.find(Course.class, kodeEnroll);
 
                     if (studentEnroll == null) {
-                        System.out.println("Student not found.");
+                        System.out.println("Mahasiswa tidak ditemukan.");
                         continue;
                     }
 
                     if (courseEnroll == null) {
-                        System.out.println("Course not found.");
+                        System.out.println("Course tidak ditemukan.");
                         continue;
                     }
 
