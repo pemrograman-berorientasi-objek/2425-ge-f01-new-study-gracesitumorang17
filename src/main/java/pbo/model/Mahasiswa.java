@@ -6,11 +6,11 @@ import javax.persistence.*;
 @Table(name = "Mahasiswa")
 public class Mahasiswa {
     @Id
-    @Column(name = "nim", nullable = false, length = 30)
+    @Column(name = "nim", nullable = false, length = 60)
     private String nim;
-    @Column(name = "nama", nullable = false, length = 30)
+    @Column(name = "nama", nullable = false, length = 60)
     private String nama;
-    @Column(name = "prodi", nullable = false, length = 30)
+    @Column(name = "prodi", nullable = false, length = 60)
     private String prodi;
 
     public Mahasiswa() {

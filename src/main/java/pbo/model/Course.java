@@ -7,13 +7,13 @@ import javax.persistence.*;
 
 public class Course {
     @Id
-    @Column(name = "kode", nullable = false, length = 30)
+    @Column(name = "kode", nullable = false, length = 60)
     private String kode;
-    @Column(name = "nama", nullable = false, length = 30)
+    @Column(name = "nama", nullable = false, length = 60)
     private String nama;
-    @Column(name = "semester", nullable = false, length = 30)
+    @Column(name = "semester", nullable = false, length = 60)
     private String semester;
-    @Column(name = "kredit", nullable = false, length = 30)
+    @Column(name = "kredit", nullable = false, length = 60)
     private String kredit;
 
     public Course() {

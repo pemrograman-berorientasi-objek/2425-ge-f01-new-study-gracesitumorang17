@@ -7,9 +7,9 @@ import javax.persistence.*;
 
 public class Enrollment {
     @Id
-    @Column(name = "nim", nullable = false, length = 30)
+    @Column(name = "nim", nullable = false, length = 60)
     private String nim;
-    @Column(name = "kode", nullable = false, length = 30)
+    @Column(name = "kode", nullable = false, length = 60)
     private String kode;
 
     public Enrollment() {
